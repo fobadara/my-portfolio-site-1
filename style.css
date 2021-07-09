@@ -1,0 +1,52 @@
+@media screen and (max-width:400px) {
+  body {
+    all:unset;
+    background: url('images/header-illsutration-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .container{
+    list-style-type: none;
+  }
+  #top-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  #welcome {
+    font-weight: bold;
+    margin-top: 0.5em;
+  }
+  #top-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em; 
+  } 
+  #header-1-container {
+    font: 1em normal bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 3em;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  #hey {
+    margin-bottom: 0px;
+    color: #172B4D;
+  }
+  #job {
+    margin-top: 0px;
+    color: #5df3a8;
+  }
+  #home-paragraph {
+    width: 89%;
+    text-align: center;
+  }
+  #contact-container { 
+    display: flex;
+  }
+  .nav-link-container {
+    margin-right: 2em;
+  }
+}  

@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
   body {
     all: unset;
-    background-color:#E5E5E5;
+    background-color: #e5e5e5;
   }
 
   .container {
@@ -58,10 +58,6 @@
     display: flex;
     justify-content: space-between;
   }
-
-  .container {
-    list-style-type: none;
-  }
   
   #home-paragraph {
     width: 80%;
@@ -71,6 +67,7 @@
   .nav-link-container {
     margin-right: 1.8em;
   }
+
   #nav-container {
     margin-bottom: 186px;
   }
@@ -85,12 +82,12 @@
   #header-2-container {
     display: flex;
     justify-content: center;
-    color:#172B4D;
+    color: #172b4d;
     margin-bottom: 0;
   }
 
   #samples-container {
-    display:grid;
+    display: grid;
     grid-template-columns: 90%;
     justify-content: space-around;
     align-items: center;
@@ -102,46 +99,50 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: solid thin #EBF0EE;
+    border: solid thin #ebf0ee;
     border-radius: 8px;
     margin-bottom: 1em;
     width: 80%;
-    background: #FFFFFF;
+    background: #fff;
   }
-  
+
   .sample-img-container {
     height: 200px;
     width: 100%;
-    background: #EBF0EE;
-    margin-bottom: 0px;
+    background: #ebf0ee;
+    margin-bottom: 0;
   }
-  
+
   .sample-img-txt-head-container {
     margin-bottom: 0;
     margin-top: 0;
     width: 100%;
-    color: #3A4A42;
+    color: #3a4a42;
   }
 
   #sample-img-head-text {
     text-align: center;
   }
 
-  .code-lang-container{
-    color: #3A4A42;
+  .code-lang-container {
+    color: #3a4a42;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: small;
     flex-wrap: wrap;
     margin-bottom: 2.5em;
-    padding: 0px;
+    padding: 0;
+    width: 70%;
   }
 
-  .ruby-on-rails, .html, .css, .js {
-    border: solid thin #EBF0EE;
+  .ruby-on-rails,
+  .html,
+  .css,
+  .js {
+    border: solid thin #ebf0ee;
     border-radius: 4px;
-    background-color: #EBF0EE;
+    background-color: #ebf0ee;
     margin-right: 0.5em;
     padding: 0.2em;
   }
@@ -149,13 +150,13 @@
   .btn {
     width: max-content;
     height: 48px;
-    background: #36B37F;
-    border-color: #36B37F;
+    background: #36b37f;
+    border-color: #36b37f;
     font-size: medium;
-    color: #FFFFFF;
-    border-radius: 4PX;
+    color: #fff;
+    border-radius: 4px;
     margin-bottom: 1em;
-    padding: 12PX;
+    padding: 12px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -167,12 +168,10 @@
     border-color: #008552;
   }
 
-  
-   #right-triangle {
+  #right-triangle {
     position: absolute;
     left: 350px;
   } 
-
 
   #aside-container {
     display: grid;
@@ -182,8 +181,11 @@
     background-size: contain;
   }
 
-  #aside-container, #about-paragraph,
-  #btn-container, #all-skills, #box-container {
+  #aside-container, 
+  #about-paragraph,
+  #btn-container, 
+  #all-skills, 
+  #box-container {
     display: grid;
     grid-template-columns: 80%;
     justify-content: space-around;
@@ -192,7 +194,7 @@
   }
 
   .header {
-    color:#172B4D;
+    color: #172b4d;
   }
 
   .header-2 {
@@ -208,6 +210,7 @@
     justify-content: space-around;
     align-items: center;
   }
+
   #resume-btn {
     height: 80%;
     display: flex;
@@ -224,32 +227,27 @@
     height: 352px;
     margin: 1em;
     border-radius: 8px;
-    background:#EBF0EE;
-  }
-
-  .code-lang-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 70%;
+    background: #ebf0ee;
   }
 
   .logo-container {
     border-radius: 50px;
-    background: #FFFFFF;
+    background: #fff;
     display: flex;
     justify-content: center;
     width: 80px;
     height: 80px;
-    left: calc(50% - 80px/2 + 0.5px);
-    top: calc(50% - 80px/2);
-    box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
+    left: calc(50% - 80px / 2 + 0.5px);
+    top: calc(50% - 80px / 2);
+    box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
   }
 
-  .lang, .frm-wrk, .skills {
+  .lang, 
+  .frm-wrk, 
+  .skills {
     border-radius: 12px;
     padding: 0.8em;  
-    background: #FFFFFF;
+    background: #fff;
   }
 
   #frame-wrk-list {
@@ -259,6 +257,7 @@
     align-items: center;
     width: 75%;
   }
+
   .frm-wrk {
     margin-bottom: 0.5em;
     margin-right: 5px;
@@ -267,6 +266,7 @@
   #skills-list {
     width: 95%;
   }
+
   .skills {
     margin: 0.1em;
   }
@@ -277,9 +277,10 @@
     align-items: center;
     text-align: center;
   }
+
   #comment-para {
     width: 80%;
-    color: #172B4D;
+    color: #172b4d;
     font: 3em bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 52px;
@@ -304,7 +305,7 @@
     width: 80%;
     height: 50px;
     margin-bottom: 2em;
-    border: 1px solid #D0D9D4;
+    border: 1px solid #d0d9d4;
     border: radius 4px;
     box-sizing: border-box;
   }
@@ -312,7 +313,7 @@
   #comment {
     box-sizing: content-box;
     height: 80px;
-    border: 1px solid #60C095;
+    border: 1px solid #60c095;
     border-radius: 4px;
   }
 

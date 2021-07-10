@@ -58,7 +58,7 @@
     display: flex;
     justify-content: space-between;
   }
-  
+
   #home-paragraph {
     width: 80%;
     text-align: center;
@@ -246,7 +246,7 @@
   .frm-wrk, 
   .skills {
     border-radius: 12px;
-    padding: 0.8em;  
+    padding: 0.8em;
     background: #fff;
   }
 
@@ -306,7 +306,7 @@
     height: 50px;
     margin-bottom: 2em;
     border: 1px solid #d0d9d4;
-    border: radius 4px;
+    border-radius: 4px;
     box-sizing: border-box;
   }
 

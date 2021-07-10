@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   body {
     all: unset;
     background-color: #e5e5e5;
@@ -31,10 +31,10 @@
   }
 
   #header-1-container {
-    font: 1em normal bolder;
+    font: 1.3em normal bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 3em;
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,6 +62,8 @@
   #home-paragraph {
     width: 80%;
     text-align: center;
+    font-size: 20px;
+    color:  #172B4D;
   }
 
   .nav-link-container {
@@ -91,7 +93,6 @@
     grid-template-columns: 90%;
     justify-content: center;
     align-items: center;
-    margin-left: 60px;
   }
 
   .sample-containers {
@@ -103,7 +104,7 @@
     border: solid thin #ebf0ee;
     border-radius: 8px;
     margin-bottom: 1em;
-    width: 80%;
+    width: 320px;
     background: #fff;
   }
 
@@ -129,12 +130,12 @@
     color: #3a4a42;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font-size: small;
     flex-wrap: wrap;
     margin-bottom: 2.5em;
     padding: 0;
-    width: 70%;
+    width: 90%;
   }
 
   .ruby-on-rails,
@@ -176,7 +177,7 @@
 
   #right-triangle {
     position: absolute;
-    left: 450px;
+    left: 350px;
   }
 
   #aside-container {
@@ -209,12 +210,17 @@
 
   #about-paragraph {
     margin-bottom: 2em;
+    font-size: x-large;
+    color: #42526E;;
+    margin-bottom: 2px;
   }
 
   #resume-btn-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 3px;
+    margin-bottom: 20px;
   }
 
   #resume-btn {
@@ -229,9 +235,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 369px;
+    width: 320px;
     height: 352px;
-    margin: 1em;
+    margin-top: 5px;
+    margin-bottom: 1em;
     border-radius: 8px;
     background: #ebf0ee;
   }
@@ -254,6 +261,10 @@
     border-radius: 12px;
     padding: 0.8em;
     background: #fff;
+  }
+
+  .lang {
+    margin: 5px;
   }
 
   #frame-wrk-list {
@@ -310,7 +321,7 @@
   }
 
   .entry {
-    width: 80%;
+    width: 90%;
     height: 50px;
     margin-bottom: 2em;
     border: 1px solid #d0d9d4;

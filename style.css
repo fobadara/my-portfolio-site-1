@@ -4,7 +4,7 @@
     background-color: #e5e5e5;
   }
 
-  .container {
+  li {
     list-style-type: none;
   }
 
@@ -89,8 +89,9 @@
   #samples-container {
     display: grid;
     grid-template-columns: 90%;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin-left: 60px;
   }
 
   .sample-containers {
@@ -168,9 +169,14 @@
     border-color: #008552;
   }
 
+  .btn:hover {
+    background: #008552;
+    border-color: #008552;
+  }
+
   #right-triangle {
     position: absolute;
-    left: 350px;
+    left: 450px;
   }
 
   #aside-container {
@@ -273,7 +279,7 @@
 
   #comment-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
   }
@@ -284,6 +290,8 @@
     font: 3em bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 52px;
+    margin-left: 60px;
+    text-align: center;
   }
 
   #form {
@@ -317,7 +325,9 @@
     border-radius: 4px;
   }
 
-  #footer {
+  .nav-container {
     margin: 2em;
+    display: flex;
+    justify-content: center;
   }
 }

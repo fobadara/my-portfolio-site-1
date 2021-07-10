@@ -1,9 +1,7 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   body {
-   all:unset;
-   background: url('images/header-illsutration-mobile.svg');
-   background-repeat: no-repeat;
-   background-size: contain;
+    all: unset;
+    background-color:  #E5E5E5;
   }
 
   .container{
@@ -13,6 +11,7 @@
   #top-nav {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0;
   }
 
   #welcome {
@@ -25,38 +24,299 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 6em;
+    margin-top: 0;
+    background: url('images/header-illsutration-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #header-1-container {
     font: 1em normal bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 3em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
   }
 
   #hey {
     margin-bottom: 0;
+    margin-top: 2em;
     color: #172b4d;
+    text-align: center;
   }
 
   #job {
     margin-top: 0;
     color: #5df3a8;
-  }
-
-  #home-paragraph {
-    width: 89%;
     text-align: center;
   }
 
   #contact-container {
     display: flex;
+    justify-content: space-between;
+  }
+
+  .container {
+    list-style-type: none;
+  }
+  
+  #home-paragraph {
+    width: 80%;
+    text-align: center;  
   }
 
   .nav-link-container {
-    margin-right: 2em;
+    margin-right: 1.8em;
+  }
+  #nav-container {
+    margin-bottom: 186px;
+  }
+
+  #main-container {
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #header-2-container {
+    display: flex;
+    justify-content: center;
+    color:#172B4D;
+    margin-bottom: 0;
+  }
+
+  #samples-container {
+    display:grid;
+    grid-template-columns: 90%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .sample-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid thin #EBF0EE;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    width: 80%;
+    background: #FFFFFF;
+  }
+  
+  .sample-img-container {
+    height: 200px;
+    width: 100%;
+    background: #EBF0EE;
+    margin-bottom: 0px;
+  }
+  
+  .sample-img-txt-head-container {
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+    color: #3A4A42;
+  }
+
+  #sample-img-head-text {
+    text-align: center;
+  }
+
+  .code-lang-container{
+    color: #3A4A42;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    flex-wrap: wrap;
+    margin-bottom: 2.5em;
+    padding: 0px;
+  }
+
+  .ruby-on-rails, .html, .css, .js {
+    border: solid thin #EBF0EE;
+    border-radius: 4px;
+    background-color: #EBF0EE;
+    margin-right: 0.5em;
+    padding: 0.2em;
+  }
+
+  .btn{
+    width: max-content;
+    height: 48px;
+    background: #36B37F;
+    border-color: #36B37F;
+    font-size: medium;
+    color: #FFFFFF;
+    border-radius: 4PX;
+    margin-bottom: 1em;
+    padding: 12PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .btn:active {
+    background: #008552;
+    border-color: #008552;
+  }
+
+  
+   #right-triangle {
+    position: absolute;
+    left: 350px;
+  } 
+
+
+  #aside-container {
+    display: grid;
+    grid-template-columns: 80%;
+    background: url('images/illustration-about-me-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #aside-container, #about-paragraph, 
+  #btn-container, #all-skills, #box-container {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header {
+    color:#172B4D;
+  }
+
+  .header-2 {
+    font-size: xx-large;
+  }
+  
+  #about-paragraph {
+    margin-bottom: 2em;
+  }
+
+  #resume-btn-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #resume-btn {
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 369px;
+    height: 352px;
+    margin: 1em;
+    border-radius: 8px;
+    background:#EBF0EE;
+  }
+
+  .code-lang-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+  }
+
+  .logo-container {
+    border-radius: 50px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    left: calc(50% - 80px/2 + 0.5px);
+    top: calc(50% - 80px/2);
+    box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
+  }
+
+  .lang, .frm-wrk, .skills {
+    border-radius: 12px;
+    padding: 0.8em;  
+    background: #FFFFFF;
+  }
+
+  #frame-wrk-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+  }
+  .frm-wrk {
+    margin-bottom: 0.5em;
+    margin-right: 5px;
+  }
+
+  #skills-list {
+    width: 95%;
+  }
+  .skills {
+    margin: 0.1em;
+  }
+
+  #comment-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  #comment-para {
+    width: 80%;
+    color: #172B4D;
+    font: 3em bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 52px;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .entry {
+    width: 80%;
+    height: 50px;
+    margin-bottom: 2em;
+    border: 1px solid #D0D9D4;
+    border: radius 4px;
+    box-sizing: border-box;
+  }
+
+  #comment {
+    box-sizing: content-box;
+    height: 80px;
+    border: 1px solid #60C095;
+    border-radius: 4px;
+  }
+
+  #footer {
+    margin: 2em;
   }
 }

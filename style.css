@@ -171,7 +171,7 @@
   #right-triangle {
     position: absolute;
     left: 350px;
-  } 
+  }
 
   #aside-container {
     display: grid;
@@ -181,10 +181,10 @@
     background-size: contain;
   }
 
-  #aside-container, 
+  #aside-container,
   #about-paragraph,
-  #btn-container, 
-  #all-skills, 
+  #btn-container,
+  #all-skills,
   #box-container {
     display: grid;
     grid-template-columns: 80%;
@@ -200,7 +200,7 @@
   .header-2 {
     font-size: xx-large;
   }
-  
+
   #about-paragraph {
     margin-bottom: 2em;
   }
@@ -242,8 +242,8 @@
     box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
   }
 
-  .lang, 
-  .frm-wrk, 
+  .lang,
+  .frm-wrk,
   .skills {
     border-radius: 12px;
     padding: 0.8em;
